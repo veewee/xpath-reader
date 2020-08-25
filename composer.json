@@ -1,0 +1,19 @@
+{
+    "name": "veewee/xpath-parser",
+    "type": "library",
+    "require": {
+        "mathiasverraes/parsica": "^0.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3",
+        "vimeo/psalm": "^3.14",
+        "phpro/grumphp-shim": "^0.20.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Verwerft",
+            "email": "toonverwerft@gmail.com"
+        }
+    ]
+}
