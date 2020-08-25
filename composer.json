@@ -1,5 +1,5 @@
 {
-    "name": "veewee/xpath-parser",
+    "name": "veewee/xpath-reader",
     "type": "library",
     "require": {
         "mathiasverraes/parsica": "^0.5.0"
@@ -15,5 +15,15 @@
             "name": "Toon Verwerft",
             "email": "toonverwerft@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "XpathReader\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "XpathReaderTest\\": "test/"
+        }
+    }
 }
